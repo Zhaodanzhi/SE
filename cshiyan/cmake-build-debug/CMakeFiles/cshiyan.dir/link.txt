@@ -1,0 +1,3 @@
+"G:\CLion\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cshiyan.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\cshiyan.dir/objects.a @CMakeFiles\cshiyan.dir\objects1.rsp
+C:\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\cshiyan.dir/objects.a -Wl,--no-whole-archive -o cshiyan.exe -Wl,--out-implib,libcshiyan.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cshiyan.dir\linklibs.rsp
